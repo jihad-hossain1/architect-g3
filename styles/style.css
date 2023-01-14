@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+/*--------------------
+     header section style 
+---------------------- */
+
+/* company name and nav section style  */
+header {
+    height: 1300px;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.main-content {
+    width: 1450px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.company-navi {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.company-name h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.company-navi nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* banner section style  */
+.banner {
+    /* width: 540px; */
+    margin: auto;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 30px;
+
+    /* text-align: center; */
+}
+
+.title-discription {
+    color: #727272;
+    padding-bottom: 30px;
+}
+
+.btn-primary {
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 30px;
+    color: aliceblue;
+    background-color: #FF900E;
+    cursor: pointer;
+}
+.banner-image{
+    padding-top: 50px;
+}
+
+
+
+ /* ------------------
+        main content 
+ ---------------------- */
+main{
+    margin: auto;
+    width: 1440px;
+    padding-top: 80px;
+}
+
+ /* Quick feature section style  */
+ .quick-feature{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+ }
+ .feature-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+ }
+ .feature-image .image{
+    margin: 6px;
+    cursor: pointer;
+ }
+.quick-feature-heading{
+    padding-top: 270px;
+    height: 300px;
+}
+.quick-feature-heading h2{
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 24px;
+
+}
+.quick-feature-heading p{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
