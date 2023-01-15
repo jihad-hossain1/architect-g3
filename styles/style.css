@@ -272,3 +272,18 @@ main {
     padding-bottom: 100px;
 }
 
+
+
+/*----------------------
+    footer section style  
+------------------------*/
+
+.copyright{
+    background-color: #FFF4E7;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
