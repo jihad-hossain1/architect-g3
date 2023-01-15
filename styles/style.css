@@ -7,6 +7,10 @@
     display: none;
 }
 
+#hide {
+    display: none;
+}
+
 /*--------------------
      header section style 
 ---------------------- */
@@ -162,19 +166,23 @@ main {
     box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
 
 }
-#exp{
+
+#exp {
     position: relative;
     right: 74px;
     top: -140px;
 
 }
-.architect-image img{
+
+.architect-image img {
     width: 700px;
     height: 851px;
 }
-.architect{
+
+.architect {
     padding-left: 70px;
 }
+
 .experience {
     text-align: center;
     padding: 45px;
@@ -188,7 +196,53 @@ main {
     font-weight: 700;
     font-size: 65px;
 }
+
 .experience h2,
-.experience p{
+.experience p {
     color: #ffffff;
+}
+
+/* some facts section style  */
+.facts {
+    padding-top: 120px;
+}
+
+.facts h2 {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+.facts p {
+    color: #727272;
+}
+
+.achivement-history {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding-top: 100px;
+}
+
+.history-container {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 55px;
+}
+.history-container:hover{
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
+    /* border-bottom: 3px solid #FF900E; */
+    transition: 0.5s;
+    background-color: rgbahsla(32, 100%, 53%, 0.184);
+}
+.history-container h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.history-container p {
+    font-weight: 600;
+    font-size: 17px;
 }
